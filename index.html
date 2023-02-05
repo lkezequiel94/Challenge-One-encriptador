@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+        <title>Encriptador</title>
+        
+
+    </head>
+
+    <body>
+        <header>
+            <img src="Imagenes/Logo Alura.png" class="Logo-Alura">
+        </header>
+        
+        <main>
+            <div>
+                <label for="Texto"></label>
+                <textarea name="texto" class="mensaje" id="mensaje" placeholder="Ingrese su texto aqui" required></textarea>
+            </div>
+            <div>
+                <div class="rectangulo">
+                    <textarea name="TextoResultado" id="TextoResultado" class="TextoResultado" readonly="readonly" hidden></textarea> 
+                    <div id="Desaparece">
+                        <img src="Imagenes/Muñeco.png" id="Muñeco">
+                        <p class="Sin-mensaje">Ningún mensaje fue encontrado</p>
+                        <p class="Sin-mensaje2">Ingresa el texto que desees encriptar o desencriptar</p>
+                    </div>
+                    <label for="boton-copiar"></label>
+                    <button class="boton-copiar"onclick="copy()">Copiar</button>
+                </div>
+            </div>
+        
+        
+            <section>
+                <div>
+                    <img src="Imagenes/Exclamación.png" class="aviso">
+                    <p class="texto-aviso">Solo letras minúsculas y sin acento</p>
+                    
+                </div>
+                <div>
+                    <label for="boton-encriptar"></label>
+                    <button class="boton-encriptar"onclick="encriptar()">Encriptar</button>
+                </div>
+                <div>
+                    <label for="boton-desencriptar"></label>
+                    <button class="boton-desencriptar"onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+        </footer>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

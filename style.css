@@ -1,0 +1,203 @@
+.Logo-Alura{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+body{
+    background-color: #F3F5FC;
+}
+
+.mensaje{
+    position: absolute;
+    width: 577px;
+    height: 300px;
+    left: 80px;
+    top: 110px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: start;
+
+    overflow: hidden;
+    border: 0px;
+    background-color: #F3F5FC;
+    color: #0A3871;
+    resize: none;
+
+}
+
+.mensaje::placeholder {
+    color:#0A3871;
+  }
+
+  .rectangulo{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 800px;
+    top: 10px;
+    background-color: white;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+}
+
+.Muñeco{
+    position: absolute;
+    top: 243px;
+    left: 32px;
+}
+
+.Sin-mensaje{
+    position: absolute;
+    top: 320px;
+    left: 38px;
+    width: fit-content;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #343A40;
+}
+.Sin-mensaje2{
+    position: absolute;
+    top: 410px;
+    left: 38px;
+    width: fit-content;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #343A40;
+}
+
+.TextoResultado{
+
+    position: absolute;
+    width: 336px;
+    height: 350px;
+    left: 32px;
+    top: 32px;
+    border-width: 0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+
+    color: #495057;
+    resize: none;
+
+}
+
+.boton-copiar{
+
+    /* configuración del texto del boton*/
+    text-align: center;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* configuración de la posicion, color y forma del boton*/
+    padding: 24px;
+    position: absolute;
+    top: 500px;
+    left: 32px;
+
+    background-color: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+
+    width: 336px;
+    height: 67px;
+}
+
+.aviso{
+    position: absolute;
+    top: 470px;
+    left: 100px;
+
+}
+
+.texto-aviso{
+
+    position: absolute;
+    top: 471px;
+    left: 120px;
+    color: #495057;
+    width: 205px;
+    height: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    opacity: 0.8;
+
+}
+.boton-encriptar{
+
+    /* configuración del texto del boton*/
+    text-align: center;
+    color: white;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* configuración de la posicion, color y forma del boton*/
+    padding: 24px;
+    position: absolute;
+    top: 505px;
+    left: 70px;
+    background-color: #0A3871;
+    border-width: 0px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    transition: background-color .5s;
+    cursor:default;
+    
+}
+.boton-encriptar:hover{
+    background-color: #082e5e;
+}
+
+.boton-desencriptar{
+
+    /* configuración del texto del boton*/
+    text-align: center;
+    color: #0A3871;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* configuración de la posicion, color y forma del boton*/
+    padding: 24px;
+    position: absolute;
+    top: 505px;
+    left: 430px;
+    background-color: #D8DFE8;
+    border-width: 0px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    cursor: pointer;
+}
